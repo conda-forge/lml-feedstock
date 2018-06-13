@@ -14,12 +14,15 @@ Summary: Load me later. A lazy loading plugin management system.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/lml-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/lml-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/lml-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/lml-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/lml/badges/version.svg)](https://anaconda.org/conda-forge/lml)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/lml/badges/downloads.svg)](https://anaconda.org/conda-forge/lml)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-lml-green.svg)](https://anaconda.org/conda-forge/lml) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/lml.svg)](https://anaconda.org/conda-forge/lml) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/lml.svg)](https://anaconda.org/conda-forge/lml) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/lml.svg)](https://anaconda.org/conda-forge/lml) |
 
 Installing lml
 ==============
