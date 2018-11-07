@@ -1,6 +1,6 @@
 {% set name = "lml" %}
-{% set version = "0.0.5" %}
-{% set sha256 = "06d46c75c189d1eecf2eb673c4db427b58b6a8a6199f8e77509056f123aed837" %}
+{% set version = "0.0.6" %}
+{% set sha256 = "d9e81ed8395c8a5bdccb79c1015a7e5a64909a2df44e5f416a390f6bf593e74e" %}
 
 package:
   name: {{ name|lower }}
