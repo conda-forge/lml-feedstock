@@ -1,6 +1,6 @@
 {% set name = "lml" %}
-{% set version = "0.0.9" %}
-{% set sha256 = "ea5ba817b4adc9e9f5c21725cd2475f912933b7e2dfdf0792aed80077154f63f" %}
+{% set version = "0.1.0" %}
+{% set sha256 = "57a085a29bb7991d70d41c6c3144c560a8e35b4c1030ffb36d85fa058773bcc5" %}
 
 package:
   name: {{ name|lower }}
@@ -33,8 +33,8 @@ about:
   home: https://github.com/chfw/lml.git
   license: BSD-3-Clause
   license_family: BSD
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Load me later. A lazy loading plugin management system.'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: Load me later. A lazy loading plugin management system.
   doc_url: http://lml.readthedocs.io/en/latest/
   dev_url: https://github.com/chfw/lml.git
 
