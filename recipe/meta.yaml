@@ -1,6 +1,6 @@
 {% set name = "lml" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "57a085a29bb7991d70d41c6c3144c560a8e35b4c1030ffb36d85fa058773bcc5" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "8dd5afb4367a593d1cdb2144a05874cd9938f5266bebb0c9e1413200423c0d74" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install . --no-deps --ignore-installed
 
 requirements:
